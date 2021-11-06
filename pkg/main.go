@@ -28,7 +28,7 @@ func main() {
 	// Set envoirenment variable for SQL_DB
 	dbHost := os.Getenv("DB_HOST") // Set DB_HOST
 	if dbHost == "" {
-		dbHost = "localhost:8080"
+		dbHost = "localhost:3306"
 	}
 	dbPass := os.Getenv("DB_PASS") // Set DB_PASS
 	if dbPass == "" {
